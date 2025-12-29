@@ -1,6 +1,14 @@
-#Distros & The Lab Environment
+**DISTROS & THE LAB ENVIRONMENT**
 
-##What's a Distro? It's basically the Linux Kernel + a bunch of tools and apps. Each distro (like Ubuntu or Debian) is just a different "flavor" depending on what you need it for.
-##Parrot OS: This is what we use in HTB. It’s based on Debian and comes pre-loaded with security and hacking tools.
-##APT (Package Manager): This is the "App Store" of our system. We use it to install tools and keep the system updated with security patches.
-##Why we use Linux for Research: Since it's Open Source, we can actually see the code. If something feels broken or insecure, we can dig into the source code and find out why.
+WHAT'S A DISTRO?
+Distro is an operating system that includes the Linux kernel, in addition, a distro typically includes many components in addition to the Linux kernel.
+APT (Package Manager):
+This is the "App Store" of our system. We use it to install tools and keep the system updated with security patches.
+WHY WE USE LINUX FOR RESEARCH:
+Since it's Open Source, we can actually see the code. If something feels broken or insecure, we can dig into the source code and find out why.
+
+
+**SHELL**
+
+WHAT'S A SHELL?
+Shell provides a text-based interface between users and the kernel.
