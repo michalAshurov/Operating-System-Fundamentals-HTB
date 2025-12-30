@@ -11,4 +11,118 @@ Since it's Open Source, we can actually see the code. If something feels broken 
 **SHELL**
 
 WHAT'S A SHELL?
-Shell provides a text-based interface between users and the kernel.
+Shell is command line that provides a text-based interface between users and the kernel  for a computer system.
+shell give us the abbilty to enter commands to perform actions like navigating to other directories,
+working with files, and obtaining information from the system.
+
+
+**TERMINAL**
+
+WHAT'S A TERMINAL?
+Terminal serves as an interface to the shell interpreter.
+
+THE TERMINAL AND SHELL RELATIONSHIP
+
+The Terminal acts like a "receptionist's desk",
+serving as the visual gateway or interface that sends your instructions to the core system.
+
+The Shell is the "main server room" that processes these instructions,
+interpreting and executing the commands to manage data and operations.
+
+
+**PROMPT DESCRIPTION**
+
+The prompt is a line of text that tells you the system is ready for your commands.
+It usually follows this format:  <username>@<hostname>:<current directory>$.
+The Tilde (~): Represents your Home Directory. This is where you start when you log in.
+$ (Dollar sign): You are a regular user with limited permissions.
+# (Hash sign): You are the Root user (Administrator). You have full control over the system.
+
+THE PS1 VARIABLE & TRACKING YOUR WORK
+
+PS1 VARIABLE:
+This environment variable acts as a template for your prompt.
+You can customize it to show info like your IP address, the date, time, or the success/failure of your last command.
+Customizing the prompt helps you keep track of your actions during a test.
+
+BASH_HISTORY:
+A file in your home directory that records all the commands you've typed.
+
+PS1 CUSTOMIZATION - SPECIAL CHARACTERS:
+
+Special Character                      Description
+
+\d                                      Date (Mon Dec 29)
+\D{%Y-%m-%d}                            Date (YYYY-MM-DD)
+\H                                      Full hostname
+\n                                      Newline
+\t                                      Current time 24-hour (HH:MM:SS)
+\u                                      Current username
+\w                                      Full path of the current working directory
+
+
+**GETTING HELP IN LINUX**
+
+In cybersecurity, you will constantly encounter tools with parameters you don't know or tools you've never seen before.
+It is vital to know how to help yourself using these built-in functions:
+
+
+MAN PAGES:
+Short for "manual pages." These provide detailed manuals and in-depth explanations for almost every command in Linux.
+
+HELP FUNCTIONS:
+Most tools have a built-in help flag (usually --help or -h) that gives you a quick overview of how to use the tool and its optional parameters.
+Syntax:  <tool> --help
+
+ls COMMAND:
+List  information  about  the FILEs (the current directory by default).
+
+aprops COMMAND:
+Print a short description of a given keyword.
+Syntax:  apropos <keyword>
+
+
+**SYSTEM INFORMATION**
+
+ The following list is essential tools to help gather information:
+
+Command                                  Description
+whoami                                   Displays current username.
+id                                       Returns users identity.
+hostname                                 Sets or prints the name of current host system.
+uname                                    Prints basic information about the operating system name and system hardware.
+pwd                                      Returns working directory name.
+ip                                       A powerful utility to show or manipulate network devices, interfaces, and routing.
+netstat                                  Shows network status.
+ps                                       Shows process status.
+who                                      Displays who is logged in.
+env                                      Prints environment or sets and executes command.
+
+
+LOGGING IN VIA SSH:
+
+Definition:
+A secure protocol used to access and execute commands on remote computers over a network.
+
+
+OBTAINING KERNEL INFORMATION: THE UNAME COMMAND
+
+What it does:
+The uname command provides information about the system's hardware and software. Specifically, uname -r prints the Kernel Release version.
+
+Why it's a "Golden Tool" for Researchers:
+Knowing the exact kernel version allows you to quickly search for known Kernel Exploits.
+you can search for vulnerabilities specific to that version to gain higher privileges.
+
+
+
+
+
+
+
+
+
+
+
+
+
